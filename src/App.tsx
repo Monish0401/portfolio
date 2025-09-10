@@ -39,7 +39,7 @@ export default function App() {
       
       <footer className="bg-primary text-primary-foreground py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="mb-2">© 2025 John Smith. All rights reserved.</p>
+          <p className="mb-2">© {new Date().getFullYear()} Monish C. All rights reserved.</p>
           <p className="text-sm text-primary-foreground/70">
             Built with React, TypeScript, and Tailwind CSS
           </p>
