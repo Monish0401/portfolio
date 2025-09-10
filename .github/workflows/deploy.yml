@@ -34,7 +34,16 @@ jobs:
         
       - name: Build project
         run: npm run build
-      - run: cp dist/index.html dist/404.html
+
+      - name: Debug dist contents
+        run: ls -R dist || echo "dist folder missing"
+        
+      - run: |
+          if [ -f dist/index.html ]; then
+            cp dist/index.html dist/404.html
+          else
+            echo " dist/index.html not found, skipping 404.html copy"
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
