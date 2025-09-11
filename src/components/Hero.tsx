@@ -18,10 +18,10 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              John Smith
+              Monish Chandrashekar
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mt-2">
-              Full Stack Developer
+              CyberSecurity Analyst|Full Stack Developer|Network Administration|Mobile App Developer
             </h2>
           </motion.div>
           
@@ -32,7 +32,7 @@ export function Hero() {
             className="text-lg text-foreground/80 leading-relaxed max-w-lg"
           >
             Passionate about creating exceptional digital experiences with modern technologies. 
-            Specialized in React, Node.js, and cloud architecture with 5+ years of experience.
+            Specialized in React, Node.js, and cloud architecture with 1+ years of experience.
           </motion.p>
           
           <motion.div
@@ -59,8 +59,8 @@ export function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full animate-pulse"></div>
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-              alt="John Smith - Professional Headshot"
+              src="https://media.licdn.com/dms/image/v2/D5635AQEsSS2Dt8S-8A/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1698284326225?e=1758196800&v=beta&t=Nw0pP7XF7Jpuo3D7lrXsiotTflX-LkudFc2kLnfclFw"
+              alt="Monish C - Professional Headshot"
               className="w-80 h-80 rounded-full object-cover border-4 border-background shadow-2xl relative z-10"
             />
           </div>
