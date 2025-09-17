@@ -21,10 +21,10 @@ export function About() {
         >
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A dynamic tech enthusiast with passion for software development, cybersecurity, and IT infrastructure. 
-            With hands-on experience in full-stack web development, SOC Level One Analyst and Network Administration, 
-            I thrive on building innovative solutions and securing digital landscapes. 
-            Whether it’s crafting high-performances web applications fortifying cybersecurity defences, or optimizing IT infrastructure, 
+            A dynamic tech enthusiast with passion for software development, cybersecurity, and IT infrastructure.<br>
+            With hands-on experience in full-stack web development, SOC Level One Analyst and Network Administration,<br> 
+            I thrive on building innovative solutions and securing digital landscapes.<br> 
+            Whether it’s crafting high-performances web applications fortifying cybersecurity defences, or optimizing IT infrastructure,<br> 
             I bring dedication, expertise. and a problem-solving mindset to every challenge.
           </p>
         </motion.div>
