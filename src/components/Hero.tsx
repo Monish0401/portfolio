@@ -17,10 +17,10 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+            <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
               Monish Chandrashekar
             </h1>
-            <h2 className="text-2xl md:text-3xl text-muted-foreground mt-2">
+            <h2 className="text-1xl md:text-1xl text-muted-foreground mt-2">
               CyberSecurity Analyst|Full Stack Developer|Network Administration|Mobile App Developer
             </h2>
           </motion.div>
