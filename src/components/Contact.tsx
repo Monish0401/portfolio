@@ -17,11 +17,11 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbzQYUVuE394xxjzzG-0wMflimxCCUXPJ0o2yDllV9Zcao42RoHAE4Na28Eh0AjyYQPD/exec", {
-  method: "POST",
-  body: JSON.stringify(formData),
-  headers: { "Content-Type": "application/json" }
-});
+    const query = new URLSearchParams(formData).toString();
+const response = await fetch(
+  "https://script.google.com/macros/s/AKfycbzQYUVuE394xxjzzG-0wMflimxCCUXPJ0o2yDllV9Zcao42RoHAE4Na28Eh0AjyYQPD/exec" + "?" + query,
+  { method: "GET" }
+);
 
     const result = await response.json();
     if (result.status === "success") {
