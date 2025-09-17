@@ -5,44 +5,20 @@ import { Badge } from './ui/badge';
 export function Experience() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Solutions',
-      period: '2022 - Present',
-      location: 'San Francisco, CA',
+      title: 'Trainee Engineer',
+      company: 'Bharat Electronics Limited',
+      period: '2024 - Present',
+      location: 'Visakhapatnam, India',
       description: 'Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.',
       achievements: [
         'Increased application performance by 40%',
         'Led team of 4 developers',
         'Implemented CI/CD pipelines reducing deployment time by 60%'
       ],
-      technologies: ['React', 'Node.js', 'AWS', 'PostgreSQL', 'Docker']
-    },
-    {
-      title: 'Full Stack Developer',
-      company: 'StartupXYZ',
-      period: '2020 - 2022',
-      location: 'Remote',
-      description: 'Developed and maintained multiple client-facing applications. Worked closely with design team to implement pixel-perfect UIs.',
-      achievements: [
-        'Built 3 major applications from scratch',
-        'Reduced load times by 50%',
-        'Implemented real-time features using WebSockets'
-      ],
-      technologies: ['Vue.js', 'Express.js', 'MongoDB', 'Redis', 'GCP']
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Digital Agency Inc',
-      period: '2019 - 2020',
-      location: 'New York, NY',
-      description: 'Created responsive websites and web applications for various clients. Focused on modern frontend technologies and best practices.',
-      achievements: [
-        'Delivered 15+ client projects',
-        'Improved website accessibility scores by 30%',
-        'Mentored 2 junior developers'
-      ],
-      technologies: ['React', 'JavaScript', 'SASS', 'WordPress', 'jQuery']
+      technologies: ['React','Node.js','Java','Spring Boot','PostgreSQL','Android Studio','Flutter','Svelte.js','MongoDB','Express.js','Git','GitHub','Docker','PowerBI',
+                    'Palo Alto Panorama Firewall','Suricata','Evebox','Sentinal One','VirusTotal','Checkpoint Firewall','Wazuh','Network Adminstration','IT Infrastructure']
     }
+    
   ];
 
   return (
