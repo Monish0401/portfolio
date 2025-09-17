@@ -18,12 +18,10 @@ export function Contact() {
   e.preventDefault();
   try {
     const response = await fetch("https://script.google.com/macros/s/AKfycbzQYUVuE394xxjzzG-0wMflimxCCUXPJ0o2yDllV9Zcao42RoHAE4Na28Eh0AjyYQPD/exec", {
-      method: "POST",
-      body: JSON.stringify(formData),
-      headers: {
-        "Content-Type": "application/json"
-      }
-    });
+  method: "POST",
+  body: JSON.stringify(formData),
+  headers: { "Content-Type": "application/json" }
+});
 
     const result = await response.json();
     if (result.status === "success") {
