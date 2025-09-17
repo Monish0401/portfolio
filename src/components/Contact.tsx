@@ -16,12 +16,13 @@ export function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
+
   try {
     const query = new URLSearchParams(formData).toString();
-const response = await fetch(
-  "https://script.google.com/macros/s/AKfycbzQYUVuE394xxjzzG-0wMflimxCCUXPJ0o2yDllV9Zcao42RoHAE4Na28Eh0AjyYQPD/exec" + "?" + query,
-  { method: "GET" }
-);
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbwDUP8DZkx5FxIpsz6beICxGYg9WBqKVsdNnwBqF_vixclExBKr8B7Z-yRqkuX0c86t/exec" + "?" + query,
+      { method: "GET" }
+    );
 
     const result = await response.json();
     if (result.status === "success") {
@@ -31,10 +32,11 @@ const response = await fetch(
       alert("Something went wrong. Try again.");
     }
   } catch (error) {
-    alert("Error submitting form. Please try again.");
     console.error(error);
+    alert("Error submitting form. Please try again.");
   }
 };
+
 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
