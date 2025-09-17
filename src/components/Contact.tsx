@@ -14,11 +14,30 @@ export function Contact() {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  try {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbzQYUVuE394xxjzzG-0wMflimxCCUXPJ0o2yDllV9Zcao42RoHAE4Na28Eh0AjyYQPD/exec", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
+
+    const result = await response.json();
+    if (result.status === "success") {
+      alert("Form submitted successfully!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } else {
+      alert("Something went wrong. Try again.");
+    }
+  } catch (error) {
+    alert("Error submitting form. Please try again.");
+    console.error(error);
+  }
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
@@ -31,26 +50,26 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'john.smith@email.com',
-      href: 'mailto:john.smith@email.com'
+      value: 'monish0401@gmail.com',
+      href: 'mailto:monish0401@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 91414 48449',
+      href: 'tel:+919141448449'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Bangalore, India',
       href: '#'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Monish0401', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/monish-c-191812198/', label: 'LinkedIn' },
     { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' }
   ];
 
@@ -204,7 +223,7 @@ export function Contact() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span>Time Zone</span>
-                  <span className="text-sm text-muted-foreground">PST (UTC-8)</span>
+                  <span className="text-sm text-muted-foreground">(GMT+5:30) India Standard Time</span>
                 </div>
               </div>
             </Card>
