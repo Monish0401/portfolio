@@ -21,7 +21,7 @@ export function Hero() {
               Monish Chandrashekar
             </h1>
             <h2 className="text-1xl md:text-1xl text-muted-foreground mt-2">
-              CyberSecurity Analyst|Full Stack Developer|Network Administration|Mobile App Developer
+              CyberSecurity Analyst | Full Stack Developer | Network Administration | Mobile App Developer
             </h2>
           </motion.div>
           
