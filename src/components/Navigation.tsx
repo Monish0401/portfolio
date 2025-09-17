@@ -57,7 +57,7 @@ export function Navigation() {
               transition={{ delay: 0.2 }}
               className="font-bold text-xl text-primary"
             >
-              John Smith
+              Monish Chandrashekar
             </motion.div>
 
             {/* Desktop Navigation */}
