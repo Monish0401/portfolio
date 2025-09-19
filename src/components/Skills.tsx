@@ -25,7 +25,7 @@ export function Skills() {
     {
       title: 'DevOps & Tools',
       skills: [
-        { name: 'AWS/GCP', level: 85 },
+        { name: 'AWS', level: 85 },
         { name: 'Docker', level: 80 },
         { name: 'Git', level: 95 },
         { name: 'CI/CD', level: 80 },
@@ -35,8 +35,10 @@ export function Skills() {
 
   const technologies = [
     'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL', 'MongoDB',
-    'AWS', 'Docker', 'GraphQL', 'REST APIs', 'Tailwind CSS', 'Next.js',
-    'Vue.js', 'Express.js', 'Redis', 'Kubernetes', 'GitHub Actions', 'Vercel'
+    'AWS', 'Java', 'Spring Boot', 'REST APIs', 'Tailwind CSS', 'Next.js',
+    'Power BI', 'Express.js', 'Android Studio', 'Flutter', 'GitHub Actions', 'GitHub',
+    'MySQL', 'EveBox', 'Sentinal One', 'Paloalto Panorama Next Gen Firewall', 'Wazuh',
+    'Zabbix', 'Checkpoint Firewall', 'Linux'
   ];
 
   return (
