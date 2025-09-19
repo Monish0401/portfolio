@@ -9,17 +9,7 @@ export function Experience() {
       company: 'Bharat Electronics Limited',
       period: '2024 - Present',
       location: 'Visakhapatnam, India',
-      description: 'At AIIMS Hospital (Delhi) as a SOC Analyst, I worked on strengthening the cybersecurity posture of the organization.
-        My role included Linux system monitoring, performing network analysis, and OS-level process troubleshooting to detect and mitigate threats.
-        This position sharpened my problem-solving skills and gave me hands-on exposure to ensuring system reliability and security—skills that also translate effectively into embedded development and system-level engineering.
-    
-        During my time at Bharat Electronics Limited (BEL), I was part of a team responsible for designing and implementing a high-performance workforce management system.
-        My work not only involved developing the core software solution but also required close collaboration with the hardware teams to ensure smooth integration with embedded modules.
-        This project helped me gain practical experience in system design, building and managing CI/CD pipelines, and setting up automated testing frameworks to maintain reliability and efficiency across deployments.
-        
-        Later as a Software Developer and providing IT Infrastructure at ISRO (SAC, Ahmedabad), I had the opportunity to contribute to the GSAT-6 satellite project. 
-        Here, my responsibilities spanned working within embedded system environments, performing Linux debugging, and handling various aspects of hardware-software integration to support satellite communication systems.
-        This experience deepened my understanding of working with mission-critical systems where reliability and precision are crucial.',
+      description: 'Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.',
       achievements: [
         'Increased application performance by 40%',
         'Led team of 4 developers',
