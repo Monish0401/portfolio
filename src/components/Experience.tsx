@@ -9,7 +9,7 @@ export function Experience() {
       company: 'Bharat Electronics Limited',
       period: '2024 - Present',
       location: 'Visakhapatnam, India',
-      description: 'Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.',
+      description: 'At BEL, I helped design and implement a workforce management system while working with hardware teams to integrate embedded modules, building skills in system design, CI/CD, and automated testing. At ISRO (SAC, Ahmedabad), I contributed to the GSAT-6 satellite project, gaining hands-on experience in embedded environments, Linux debugging, and hardware-software integration. As a SOC Analyst at AIIMS Hospital, I focused on Linux monitoring, network analysis, and OS-level troubleshooting, strengthening my expertise in system reliability and embedded development.',
       achievements: [
         'Increased application performance by 40%',
         'Led team of 4 developers',
