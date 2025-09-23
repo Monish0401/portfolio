@@ -24,10 +24,24 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
-        
+
+      # Cache dependencies
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - name: Install dependencies
-        run: npm ci
+        run: |
+          if [ -d node_modules ]; then
+            echo "✅ Dependencies already installed, skipping npm install"
+          else
+            echo "📦 Installing dependencies..."
+            npm ci
+          fi
 
       - name: Verify vite installation
         run: npx vite --version
@@ -42,8 +56,9 @@ jobs:
           if [ -f dist/index.html ]; then
             cp dist/index.html dist/404.html
           else
-            echo " dist/index.html not found, skipping 404.html copy"
+            echo "⚠️ dist/index.html not found, skipping 404.html copy"
           fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
