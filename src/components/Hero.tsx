@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './imgfallback/ImageWithFallback';
 import { unsplash_tool } from '../tools/unsplash';
 
 export function Hero() {
