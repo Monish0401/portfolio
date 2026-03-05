@@ -11,18 +11,26 @@ export function Hero() {
     }
   };
 
-  // Function to handle CV download
   const handleDownloadCV = () => {
+    // Direct download link for your Google Drive file
+    const cvUrl = 'https://drive.google.com/uc?export=download&id=1qBZJcFTnBYiXqJ0N6BRwPjqBldtLV77h'; 
+    
+    // Open in a new tab to trigger the download immediately
+    window.open(cvUrl, '_blank');
+  };
+
+  // Function to handle CV download
+  //const handleDownloadCV = () => {
     // 1. Place your PDF file in the 'public' folder of your project
     // 2. Rename it to 'cv.pdf' or update the path below
-    const cvUrl = 'https://drive.google.com/file/d/1qBZJcFTnBYiXqJ0N6BRwPjqBldtLV77h/view?usp=drive_link'; 
-    const link = document.createElement('a');
-    link.href = cvUrl;
-    link.download = 'Monish_C_CV.pdf'; // The name the file will have when downloaded
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    //const cvUrl = 'https://drive.google.com/uc?export=download&id=1qBZJcFTnBYiXqJ0N6BRwPjqBldtLV77h/'; 
+   // const link = document.createElement('a');
+    //link.href = cvUrl;
+   // link.download = 'Monish_C_CV.pdf'; // The name the file will have when downloaded
+  //  document.body.appendChild(link);
+   // link.click();
+  //  document.body.removeChild(link);
+ // };
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-secondary/20 px-4">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
