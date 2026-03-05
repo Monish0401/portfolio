@@ -69,10 +69,10 @@ export function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex gap-4"
           >
-            <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
+            <button onClick={scrollToWork} className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
               View My Work
             </button>
-            <button className="border border-border px-8 py-3 rounded-lg hover:bg-secondary transition-colors">
+            <button onClick={handleDownloadCV} className="border border-border px-8 py-3 rounded-lg hover:bg-secondary transition-colors">
               Download CV
             </button>
           </motion.div>
