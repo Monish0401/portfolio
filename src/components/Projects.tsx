@@ -19,48 +19,48 @@ export function Projects() {
       ],
       liveUrl: 'https://monish0401.github.io/sdr_ui/',
       githubUrl: 'https://github.com/Monish0401/sdr_ui'
-    // },
-    // {
-    //   title: 'Mobile Banking App',
-    //   description: 'A secure and intuitive mobile banking application with biometric authentication, budget tracking, and investment portfolio management.',
-    //   image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU2MDU3NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    //   technologies: ['React Native', 'Redux', 'Node.js', 'MongoDB', 'JWT'],
-    //   features: [
-    //     'Biometric authentication',
-    //     'Budget tracking & analytics',
-    //     'Investment portfolio',
-    //     'Push notifications'
-    //   ],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
-    // },
-    // {
-    //   title: 'E-commerce Platform',
-    //   description: 'A full-featured e-commerce platform with inventory management, payment processing, and advanced search capabilities.',
-    //   image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
-    //   technologies: ['Next.js', 'Stripe', 'Prisma', 'PostgreSQL', 'Redis'],
-    //   features: [
-    //     'Advanced product search',
-    //     'Secure payment processing',
-    //     'Inventory management',
-    //     'Admin dashboard'
-    //   ],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
-    // },
-    // {
-    //   title: 'Data Analytics Platform',
-    //   description: 'A powerful data analytics platform that processes large datasets and provides actionable insights through interactive visualizations.',
-    //   image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTYwOTEwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    //   technologies: ['Vue.js', 'Python', 'FastAPI', 'TensorFlow', 'AWS'],
-    //   features: [
-    //     'Big data processing',
-    //     'Machine learning models',
-    //     'Interactive charts',
-    //     'API integration'
-    //   ],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
+    },
+    {
+      title: 'Mobile Banking App',
+      description: 'A secure and intuitive mobile banking application with biometric authentication, budget tracking, and investment portfolio management.',
+      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU2MDU3NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      technologies: ['React Native', 'Redux', 'Node.js', 'MongoDB', 'JWT'],
+      features: [
+        'Biometric authentication',
+        'Budget tracking & analytics',
+        'Investment portfolio',
+        'Push notifications'
+      ],
+      liveUrl: '#',
+      githubUrl: '#'
+    },
+    {
+      title: 'E-commerce Platform',
+      description: 'A full-featured e-commerce platform with inventory management, payment processing, and advanced search capabilities.',
+      image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
+      technologies: ['Next.js', 'Stripe', 'Prisma', 'PostgreSQL', 'Redis'],
+      features: [
+        'Advanced product search',
+        'Secure payment processing',
+        'Inventory management',
+        'Admin dashboard'
+      ],
+      liveUrl: '#',
+      githubUrl: '#'
+    },
+    {
+      title: 'Data Analytics Platform',
+      description: 'A powerful data analytics platform that processes large datasets and provides actionable insights through interactive visualizations.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTYwOTEwOTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      technologies: ['Vue.js', 'Python', 'FastAPI', 'TensorFlow', 'AWS'],
+      features: [
+        'Big data processing',
+        'Machine learning models',
+        'Interactive charts',
+        'API integration'
+      ],
+      liveUrl: '#',
+      githubUrl: '#'
     }
   ];
 
