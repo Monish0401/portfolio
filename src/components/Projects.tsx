@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './imgfallback/ImageWithFallback';
 import { ExternalLink, Github } from 'lucide-react';
 
 export function Projects() {
