@@ -9,13 +9,14 @@ export function Projects() {
     {
       title: 'SDR Payload Commanding',
       description: 'A comprehensive analytics dashboard for enterprise clients with real-time data visualization, custom reporting, and team collaboration features.',
-      image: 'https://images.unsplash.com/photo-1665470909939-959569b20021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NTYxMjExMjd8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      technologies: ['React', 'TypeScript', 'D3.js', 'Node.js', 'PostgreSQL'],
+      image: 'https://drive.google.com/file/d/1ssVGIL36d_CXtrz3xDswu-zm82tl6qbp/view?usp=drive_link',
+      technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL'],
       features: [
         'Real-time data visualization',
         'Custom report builder',
-        'Team collaboration tools',
-        'Mobile responsive design'
+        'Real-Time Physical SDR data',
+        'Mobile responsive design',
+        'Dark-Light Theme'
       ],
       liveUrl: 'https://monish0401.github.io/sdr_ui/',
       githubUrl: 'https://github.com/Monish0401/sdr_ui'
@@ -101,7 +102,7 @@ export function Projects() {
                     <button onClick={()=>{window.open(project.liveUrl, '_blank', 'noopener,noreferrer');}} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
                       <ExternalLink className="w-4 h-4" />
                     </button>
-                    <button onClick={()=>{window.open(project.githubUrlUrl, '_blank', 'noopener,noreferrer');}} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
+                    <button onClick={()=>{window.open(project.githubUrlUrl, '_blank');}} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
                       <Github className="w-4 h-4" />
                     </button>
                   </div>
