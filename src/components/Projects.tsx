@@ -98,10 +98,10 @@ export function Projects() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
+                    <button onClick()=>{project.liveUrl} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
                       <ExternalLink className="w-4 h-4" />
                     </button>
-                    <button className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
+                    <button onClick()=>{project.githubUrl} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
                       <Github className="w-4 h-4" />
                     </button>
                   </div>
