@@ -9,7 +9,7 @@ export function Projects() {
     {
       title: 'SDR Payload Commanding',
       description: 'A comprehensive analytics dashboard for enterprise clients with real-time data visualization, custom reporting, and team collaboration features.',
-      image: 'https://drive.google.com/file/d/1ssVGIL36d_CXtrz3xDswu-zm82tl6qbp/view',
+      image: 'https://github.com/Monish0401/portfolio/blob/e0b5d1d3732764a06811690e19706d9e055193a8/src/Screenshot.png',
       technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL'],
       features: [
         'Real-time data visualization',
