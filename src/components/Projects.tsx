@@ -8,7 +8,7 @@ export function Projects() {
   const projects = [
     {
       title: 'SDR Payload Commanding',
-      description: 'The SDR Payload Monitoring and Control Web Application allows real-time visualization of SDR payload data using React, Tailwind CSS, FastAPI, and MySQL. The app features an intuitive dashboard for easy monitoring, real-time data updates, and efficient data management. It's designed for seamless future integration with physical SDR hardware for direct interaction and control.',
+      description: "The SDR Payload Monitoring and Control Web Application allows real-time visualization of SDR payload data using React, Tailwind CSS, FastAPI, and MySQL. The app features an intuitive dashboard for easy monitoring, real-time data updates, and efficient data management. It's designed for seamless future integration with physical SDR hardware for direct interaction and control.",
       image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
       technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL'],
       features: [
