@@ -8,37 +8,39 @@ export function Projects() {
   const projects = [
     {
       title: 'SDR Payload Commanding',
-      description: 'A comprehensive analytics dashboard for enterprise clients with real-time data visualization, custom reporting, and team collaboration features.',
-      image: 'https://github.com/Monish0401/portfolio/blob/e0b5d1d3732764a06811690e19706d9e055193a8/src/Screenshot.png',
+      description: 'I designed and developed a full-stack SDR Payload Monitoring and Control Web Application using React, Tailwind CSS, FastAPI, and MySQL. This web app provides a user-friendly interface for monitoring and controlling SDR (Software-Defined Radio) payloads. It features real-time data visualization, enabling users to track performance and operations efficiently. The application is currently pending integration with physical SDR hardware for real-time data interaction, aiming to offer seamless control and monitoring once fully deployed.',
+      image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
       technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL'],
       features: [
         'Real-time data visualization',
-        'Custom report builder',
-        'Real-Time Physical SDR data',
-        'Mobile responsive design',
+        'User-Friendly Dashboard',
+        'FastAPI Back-End',
+        'MySQL Database Integration',
         'Dark-Light Theme'
       ],
       liveUrl: 'https://monish0401.github.io/sdr_ui/',
       githubUrl: 'https://github.com/Monish0401/sdr_ui'
-    // },
-    // {
-    //   title: 'Mobile Banking App',
-    //   description: 'A secure and intuitive mobile banking application with biometric authentication, budget tracking, and investment portfolio management.',
-    //   image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU2MDU3NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    //   technologies: ['React Native', 'Redux', 'Node.js', 'MongoDB', 'JWT'],
-    //   features: [
-    //     'Biometric authentication',
-    //     'Budget tracking & analytics',
-    //     'Investment portfolio',
-    //     'Push notifications'
-    //   ],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
+    },
+    {
+      title: 'CanvasFlow Blockcraft',
+      description: 'CanvasFlow Blockcraft is an easy-to-use tool for creating responsive websites with minimal coding. It features a drag-and-drop builder, real-time preview, customizable components with Tailwind CSS, and export options for HTML, CSS, and JavaScript. Collaboration is seamless with real-time teamwork capabilities, making web design fast and efficient',
+      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU2MDU3NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      technologies: ['React ', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'MySQL', 'SQLAlchemy', 'Python' ],
+      features: [
+        'Drag-and-Drop Page Builder',
+        'Pre-built Templates',
+        'Real-time Preview',
+        'Customizable Components with Tailwind CSS',
+        'Code Export and Download',
+        'Real-Time Collaboration'
+      ],
+      liveUrl: 'https://monish0401.github.io/Web-Designer/',
+      githubUrl: 'https://github.com/Monish0401/Web-Designer/'
     // },
     // {
     //   title: 'E-commerce Platform',
     //   description: 'A full-featured e-commerce platform with inventory management, payment processing, and advanced search capabilities.',
-    //   image: 'https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
+    //   image: 'Hx8MThttps://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fc1NjA0OTk4MHww&ixlib=rb-4.1.0&q=80&w=1080',
     //   technologies: ['Next.js', 'Stripe', 'Prisma', 'PostgreSQL', 'Redis'],
     //   features: [
     //     'Advanced product search',
