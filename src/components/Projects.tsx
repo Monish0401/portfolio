@@ -9,7 +9,7 @@ export function Projects() {
     {
       title: 'SDR Payload Commanding',
       description: "The SDR Payload Monitoring and Control Web Application allows real-time visualization of SDR payload data using React, Tailwind CSS, FastAPI, and MySQL. The app features an intuitive dashboard for easy monitoring, real-time data updates, and efficient data management. It's designed for seamless future integration with physical SDR hardware for direct interaction and control.",
-      image: 'https://monish0401.github.io/sdr_ui/Screenshot.png',
+      image: 'https://monish0401.github.io/Web-Designer/SDR.png',
       technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL', 'SQLAlchemy', 'Python'],
       features: [
         'Real-time data visualization',
@@ -24,7 +24,7 @@ export function Projects() {
     {
       title: 'CanvasFlow Blockcraft',
       description: 'CanvasFlow Blockcraft is an easy-to-use tool for creating responsive websites with minimal coding. It features a drag-and-drop builder, real-time preview, customizable components with Tailwind CSS, and export options for HTML, CSS, and JavaScript. Collaboration is seamless with real-time teamwork capabilities, making web design fast and efficient',
-      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU2MDU3NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://monish0401.github.io/Web-Designer/Canvas.png',
       technologies: ['React ', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'MySQL', 'SQLAlchemy', 'Python' ],
       features: [
         'Drag-and-Drop Page Builder',
