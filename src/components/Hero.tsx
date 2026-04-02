@@ -60,7 +60,7 @@ export function Hero() {
             className="text-lg text-foreground/80 leading-relaxed max-w-lg"
           >
             Passionate about creating exceptional digital experiences with modern technologies. 
-            Specialized in React, Node.js, and cloud architecture with 1+ years of experience.
+            Specialized in React, Node.js, and cloud architecture with 2+ years of experience.
           </motion.p>
           
           <motion.div
