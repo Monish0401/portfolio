@@ -87,8 +87,8 @@ export function Hero() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full animate-pulse"></div>
             <ImageWithFallback
-              src="https://lh3.googleusercontent.com/a/ACg8ocK5he34bYCAfDuNjAdLpSSJ0nW57mBx2ZaIcxh-2ua1kIdWV8E=s288-c-no"
-              {/* src="https://media.licdn.com/dms/image/v2/D5603AQGwxpG34mYbOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698284324065?e=2147483647&v=beta&t=bPLTayLnLa4ICXbt0pKfmoHZp_bere-MELjExhenuxY" */}
+              {/* src="https://lh3.googleusercontent.com/a/ACg8ocK5he34bYCAfDuNjAdLpSSJ0nW57mBx2ZaIcxh-2ua1kIdWV8E=s288-c-no" */}
+              src="https://media.licdn.com/dms/image/v2/D5603AQGwxpG34mYbOA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698284324065?e=2147483647&v=beta&t=bPLTayLnLa4ICXbt0pKfmoHZp_bere-MELjExhenuxY"
               alt="Monish C - Professional Headshot"
               className="w-80 h-80 rounded-full object-cover border-4 border-background shadow-2xl relative z-10"
             />
