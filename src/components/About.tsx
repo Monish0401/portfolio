@@ -3,7 +3,7 @@ import { Card } from './ui/card';
 
 export function About() {
   const stats = [
-    { number: '1+', label: 'Years Experience' },
+    { number: '2+', label: 'Years Experience' },
     { number: '5+', label: 'Projects Completed' },
     { number: '5+', label: 'Happy Clients' },
     { number: '15+', label: 'Technologies' },
@@ -21,10 +21,10 @@ export function About() {
         >
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground mx-auto">
-            A dynamic tech enthusiast with passion for software development, cybersecurity, and IT infrastructure.
-            With hands-on experience in full-stack web development, SOC Level One Analyst and Network Administration, 
+            A dynamic tech enthusiast with passion for Software Development, Cybersecurity, and IT Infrastructure.
+            With hands-on experience in Full-Stack Web Development, SOC Level One Analyst and Network Administration, 
             I thrive on building innovative solutions and securing digital landscapes.
-            Whether it’s crafting high-performances web applications fortifying cybersecurity defences, or optimizing IT infrastructure,
+            Whether it’s crafting high-performances web applications fortifying Cybersecurity Defences, or optimizing IT Infrastructure,
             I bring dedication, expertise. and a problem-solving mindset to every challenge.
           </p>
         </motion.div>
