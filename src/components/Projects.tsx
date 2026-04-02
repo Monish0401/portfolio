@@ -9,7 +9,7 @@ export function Projects() {
     {
       title: 'SDR Payload Commanding',
       description: "The SDR Payload Monitoring and Control Web Application allows real-time visualization of SDR payload data using React, Tailwind CSS, FastAPI, and MySQL. The app features an intuitive dashboard for easy monitoring, real-time data updates, and efficient data management. It's designed for seamless future integration with physical SDR hardware for direct interaction and control.",
-      image: 'Screenshot.png',
+      image: 'https://monish0401.github.io/sdr_ui/Screenshot.png',
       technologies: ['React', 'JavaScriptXML', 'TailWindCSS', 'FastAPI', 'MySQL', 'SQLAlchemy', 'Python'],
       features: [
         'Real-time data visualization',
