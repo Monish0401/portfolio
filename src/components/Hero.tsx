@@ -13,7 +13,7 @@ export function Hero() {
 
   const handleDownloadCV = () => {
     // Direct download link for your Google Drive file
-    const cvUrl = 'https://drive.google.com/uc?export=download&id=1qBZJcFTnBYiXqJ0N6BRwPjqBldtLV77h'; 
+    const cvUrl = 'https://drive.google.com/uc?export=download&id=1HyBb6HUuiFPKq8WhMSC9Bu915mj87eD1'; 
     
     // Open in a new tab to trigger the download immediately
     window.open(cvUrl, '_blank');
