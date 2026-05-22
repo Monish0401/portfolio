@@ -16,7 +16,7 @@ export function Hero() {
     const cvUrl = 'https://drive.google.com/uc?export=download&id=1HyBb6HUuiFPKq8WhMSC9Bu915mj87eD1'; 
     
     // Open in a new tab to trigger the download immediately
-    window.open(cvUrl, '_blank');
+    window.open(cvUrl, '_blank', 'noopener,noreferrer');
   };
 
   // Function to handle CV download
@@ -32,8 +32,10 @@ export function Hero() {
   //  document.body.removeChild(link);
  // };
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-secondary/20 px-4">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-secondary/20 px-4">
+      <div className="pointer-events-none absolute -top-40 -left-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-40 -right-24 h-96 w-96 rounded-full bg-secondary/20 blur-3xl" />
+      <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -67,12 +69,12 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="flex gap-4"
+            className="flex flex-wrap gap-4"
           >
-            <button onClick={scrollToWork} className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
+            <button onClick={scrollToWork} className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-all hover:-translate-y-0.5">
               View My Work
             </button>
-            <button onClick={handleDownloadCV} className="border border-border px-8 py-3 rounded-lg hover:bg-secondary transition-colors">
+            <button onClick={handleDownloadCV} className="border border-border px-8 py-3 rounded-lg hover:bg-secondary transition-all hover:-translate-y-0.5">
               Download CV
             </button>
           </motion.div>
