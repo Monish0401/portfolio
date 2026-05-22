@@ -68,7 +68,7 @@ export function Projects() {
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-muted/20">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -92,7 +92,7 @@ export function Projects() {
               transition={{ delay: index * 0.2, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+              <Card className="overflow-hidden group border border-border/60 hover:border-primary/40 hover:shadow-xl transition-all duration-300 h-full flex flex-col hover:-translate-y-1">
                 <div className="relative overflow-hidden">
                   <ImageWithFallback
                     src={project.image}
@@ -100,11 +100,23 @@ export function Projects() {
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <div className="absolute bottom-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <button onClick={()=>{window.open(project.liveUrl, '_blank', 'noopener,noreferrer');}} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
+                  <div className="absolute bottom-4 right-4 flex gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+                    <button
+                      onClick={() => {
+                        window.open(project.liveUrl, '_blank', 'noopener,noreferrer');
+                      }}
+                      aria-label={`Open live project for ${project.title}`}
+                      className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors"
+                    >
                       <ExternalLink className="w-4 h-4" />
                     </button>
-                    <button onClick={()=>{window.open(project.githubUrlUrl, '_blank');}} className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors">
+                    <button
+                      onClick={() => {
+                        window.open(project.githubUrl, '_blank', 'noopener,noreferrer');
+                      }}
+                      aria-label={`Open GitHub repository for ${project.title}`}
+                      className="p-2 bg-background/90 rounded-full hover:bg-background transition-colors"
+                    >
                       <Github className="w-4 h-4" />
                     </button>
                   </div>
@@ -126,12 +138,30 @@ export function Projects() {
                     </ul>
                   </div>
                   
-                  <div className="flex flex-wrap gap-2 mt-auto">
+                  <div className="flex flex-wrap gap-2 mt-auto mb-5">
                     {project.technologies.map((tech) => (
-                      <Badge key={tech} variant="secondary" className="text-xs">
-                        {tech}
+                      <Badge key={tech.trim()} variant="secondary" className="text-xs">
+                        {tech.trim()}
                       </Badge>
                     ))}
+                  </div>
+                  <div className="mt-auto flex gap-3">
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+                    >
+                      Live Demo
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-md border border-border px-4 py-2 text-sm font-medium hover:bg-secondary transition-colors"
+                    >
+                      Source Code
+                    </a>
                   </div>
                 </div>
               </Card>
