@@ -5,7 +5,7 @@ import { Badge } from './ui/badge';
 export function Experience() {
   const experiences = [
     {
-      title: 'Trainee Engineer',
+      title: 'Project Engineer',
       company: 'Bharat Electronics Limited',
       period: '2024 - Present',
       location: 'Visakhapatnam, India',
